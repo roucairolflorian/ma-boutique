@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-
     <title>Ma boutique</title>
   </head>
   <body>
@@ -42,7 +42,13 @@
          </form>
        </div>
      </nav>
-    <h1>Bienvenue dans ma boutique</h1>
+     <section class="container ma-section">
+    <h1 class="text-center mt-4 display-4">Bienvenue dans ma boutique</h1>
+  </section>
+
+  <footer>
+    &copy; 2018 flok - Ma boutique
+  </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
